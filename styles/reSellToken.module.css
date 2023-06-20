@@ -1,0 +1,35 @@
+
+.reSellToken{
+    flex-grow: 1;
+    width: 100%;
+    margin-block: 4rem;
+}
+.reSellToken_nft{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto;
+    align-items: center;
+}
+.reSellToken_box{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+}
+.reSellToken_box h1{
+    font-size: 3rem;
+}
+
+.reSellToken_box_image{
+    margin-block: 4rem;
+}
+
+@media screen and (max-width: 35em) {
+    .reSellToken_box{
+        width: 90%;
+    }
+    .reSellToken_nft{
+        width: 100%;
+    }
+}
